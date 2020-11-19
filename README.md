@@ -21,4 +21,4 @@ To install the nltk library run:
 conda install -c anaconda nltk
 
 Execution:
-After loading the Sentiment Analysis.ipynb jupyter notebook and installing the required packages, libraries, and functions, run each cell to retrieve the data, pre-process the text, and finally run the sentiment analysis model.
+After loading the Sentiment Analysis.ipynb jupyter notebook you will find multiple packages, libraries, and functions to install. I would recommend using Anaconda for all its installation. Next run each cell to retrieve the data, pre-process the text, and finally run the sentiment analysis model. Read the comments on each cell for guidance.
