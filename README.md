@@ -5,7 +5,7 @@ A visualization of topics for the 2020 election
 
 
 
-## Sentiment Analysis README
+### Sentiment Analysis 
 
 Description:
 The team used the NLTK package specifically nltk.sentiment.vader to import the “SentimentIntensityAnalyzer” model.  VADER stands for Valence Aware Dictionary for Sentiment Reasoning as it can determine the polarity and intensity of unlabeled text data. This model uses a gold standard sentiment lexicon dictionary that will map the text to its emotion intensity based on human-annotated labels.
