@@ -21,7 +21,7 @@ Installation:
 
 Execution (Demo):
 - `conda activate new_env`
-- `jupyter notebook`
+- `jupyter-lab`
 - Run LDA-Analysis-Demo.ipynb for topic modeling analysis
 
 
