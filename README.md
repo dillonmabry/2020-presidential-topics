@@ -1,8 +1,28 @@
 # 2020-presidential-topics
 A visualization of topics for the 2020 election
 
+### Visualizations
 
+For the interactive visualizations the team used Tableau and published various datasets for sentiment analysis determined using VADER Sentiment Analysis package. These visualizations include sentiment distribution counts between Trump and Biden, time series, as well as a smaller dataset for a location map of tweets from different states.
 
+The distribution of sentiments are shown in the histogram chart and box plot with the time series shown in the line graph. The location map shows average sentiment scores for each state leading up to the election.
+
+TODO: Viz live share link or Tableau instructions
+
+### Topic Modeling
+
+For topic modeling analysis the team used various Python packages including Gensim, NLTK, and Spacy to find which works best for cleaning and generating word clouds for undiscovered topics. The notebooks for LDA Analysis show word cloud generation from tweets analyzed from a MongoDB Cluster.
+
+The tweets were gathered and saved using Node Red's free Twitter API from the weeks leading up to the U.S. Presidential Election for 2020. Using the LDA Analysis notebook the user can view and generate word clouds which contain topics discussed by users.
+
+Installation:
+- Anaconda: https://docs.anaconda.com/anaconda/install/
+- `conda env create -f environment.yml`
+
+Execution (Demo):
+- `conda activate new_env`
+- `jupyter notebook`
+- Run LDA-Analysis-Demo.ipynb for topic modeling analysis
 
 
 ### Sentiment Analysis 
