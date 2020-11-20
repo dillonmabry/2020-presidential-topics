@@ -31,6 +31,9 @@ Installation:
 Execution (Demo):
 - `conda activate new_env`
 - `jupyter-lab`
+- Authenticate via Kaggle: Go to https://www.kaggle.com/ and sign in
+- Under profile picture -> my account -> account settings -> Create API Token
+- Update kaggle.json token file to be in your home directory (for Linux users ~/.kaggle/kaggle.json or C:\Users<Windows-username>.kaggle\kaggle.json on Windows)
 - Run LDA-Analysis-Demo.ipynb for topic modeling analysis
 
 
@@ -44,10 +47,13 @@ The VADER SentimentIntensityAnalyzer is ideal for social media texts since it ca
 The model will determine a positive, negative, neutral, and compound score. The overall polarity score used is the compound score, which is determined by Vader's normalization equation and will be on a scale from -1 to 1.
 
 Installation:
-I used an older version of Python to perform my analysis. I would advise installing Python 3.5.6 and Anaconda (https://www.anaconda.com/products/individual). 
+- Anaconda: https://docs.anaconda.com/anaconda/install/
+- `conda env create -f environment.yml`
 
-To install the nltk library run: 
-conda install -c anaconda nltk
-
-Execution:
-After loading the Sentiment Analysis.ipynb jupyter notebook you will find multiple packages, libraries, and functions to install. I would recommend using Anaconda for all its installation. Next run each cell to retrieve the data, pre-process the text, and finally run the sentiment analysis model. Read the comments on each cell for guidance.
+Execution (Demo):
+- `conda activate new_env`
+- `jupyter-lab`
+- Authenticate via Kaggle: Go to https://www.kaggle.com/ and sign in
+- Under profile picture -> my account -> account settings -> Create API Token
+- Update kaggle.json token file to be in your home directory (for Linux users ~/.kaggle/kaggle.json or C:\Users<Windows-username>.kaggle\kaggle.json on Windows)
+- Run LDA-Analysis-Demo.ipynb for topic modeling analysis
