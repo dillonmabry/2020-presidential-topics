@@ -56,4 +56,4 @@ Execution (Demo):
 - Authenticate via Kaggle: Go to https://www.kaggle.com/ and sign in
 - Under profile picture -> my account -> account settings -> Create API Token
 - Update kaggle.json token file to be in your home directory (for Linux users ~/.kaggle/kaggle.json or C:\Users<Windows-username>.kaggle\kaggle.json on Windows)
-- Run LDA-Analysis-Demo.ipynb for topic modeling analysis
+- Run Sentiment Analysis.ipynb for sentiment analysis
