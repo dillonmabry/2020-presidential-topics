@@ -7,11 +7,16 @@ For the interactive visualizations the team used Tableau and published various d
 
 The distribution of sentiments are shown in the histogram chart and box plot with the time series shown in the line graph. The location map shows average sentiment scores for each state leading up to the election.
 
-Description: Tableau was utilized for our visualization assessments. Tableau is an interactive data visualization software that is widely used across industry. The data generated from the sentiment analysis code above was exported to a pkl or xlsx file to be uploaded and manipulated in tableau.
+Installation:
+- Install Tableau Desktop https://www.tableau.com/products/desktop/download
 
-Installation: There are multiple versions of tableau that can be used for this dataset. The team used tableau desktop, since it was available at no additional cost through the CSE 6242 course at Georgia Tech. Tableau desktop is the only required software to run this visualization. 
+Execution (Demo)
+- Open .twb file and set data source to data defined via project via sentiment_df.xlsx
 
-Execution: After installing tableau, export the sentiment analysis data into an xlsx or pkl file for review. Once you have the sentiment_df.xlsx file exported and saved, then you will be able to create a connection to upload. Click on the bottom data source tab and select the connect “to a file: Microsoft Excel.” The query will execute, and your tabulated data will be shown in sheet 1 after updating the data. Next, visualizations can be made via the sheets tab and placing different attributes into the dimensions and measure groupings. In order for ease of execution, the team has compiled all data sets and the final dashboards/sheets into one simplified tableau file. This can be found by opening the “Sentiment Tableau.twb” file. All sheets and dashboards are auto populated after opening this file in Tableau.
+Published interactive visualizations:
+- Time Series: https://public.tableau.com/profile/rapid.dev#!/vizhome/SentimentTableau/Dashboard4
+- Distribution Scores: https://public.tableau.com/profile/rapid.dev#!/vizhome/Trumpvs_BidenSentimentDistribution/Dashboard1
+- Location Sentiment: https://public.tableau.com/profile/rapid.dev#!/vizhome/Trumpvs_BidenSentimentMap/Dashboard2
 
 ### Topic Modeling
 
